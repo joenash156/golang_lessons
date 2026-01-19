@@ -10,11 +10,11 @@ type Person struct {
 func main() {
 	fmt.Println() // print a new line
 
-	// fruits := [4]string{"apple", "orange", "pawpaw", "banana"}
+	fruits := [4]string{"apple", "orange", "pawpaw", "banana"}
 
-	// for i := range(len(fruits)) {
-	// 	fmt.Println(fruits[i])
-	// }
+	for i := range(len(fruits)) {
+		fmt.Println(fruits[i])
+	}
 
 	// an array to store student score (dammy data)
 	studentsScores := [5]int{78, 65, 90, 82, 70}
@@ -72,5 +72,8 @@ func main() {
 	for _, score := range aboveAverage {
 		fmt.Printf("%d ", score)
 	}
+
+	result := averageCalc(39, 44, 89, 99, 92)
+	fmt.Printf("Average: %2.f \n", result)
 
 }
