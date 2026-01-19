@@ -7,19 +7,12 @@ type Person struct {
 }
 
 func main() {
-	println() // print a new line
+	fmt.Println() // print a new line
 
-	name := "Joshua"
-	var age = 24
-
-	var pers1 Person
+	fruits := [4]string{"apple", "orange", "pawpaw", "banana"}
 	
-	pers1.name = "Kwesi"
-	pers1.age = 23
+	for i := range(len(fruits)) {
+		fmt.Println(fruits[i])
+	}
 
-	fmt.Println(pers1.name, pers1.age)
-
-	fmt.Printf("My name is %s and I am %d years of age \n", name, age)
-
-	println() // print a new line
 }
