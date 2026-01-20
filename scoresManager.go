@@ -8,10 +8,10 @@ type Student struct {
 func addStudent(students []Student, name string, scores ...int) []Student {
 	newStudent := Student {
 		Name: name,
-		Scores: scores
+		Scores: scores,
 	}
 
-	students := append(students, newStudent)
+	students = append(students, newStudent)
 
 	return students
 
