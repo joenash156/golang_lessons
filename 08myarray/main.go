@@ -20,4 +20,5 @@ func main() {
 	fmt.Println("Vegetable list is: ", vegetables)
 
 	fmt.Println() // print a new line
+	fmt.Println("")
 }
