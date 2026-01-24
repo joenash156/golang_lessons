@@ -15,5 +15,7 @@ func main() {
 
 	fmt.Printf("Fruits: %s of data type: %T \n", fruits, fruits)
 
+	fmt.Printf("Fruits slice has a length: %d and capacity of: %d \n", len(fruits), cap(fruits))
+
 	fmt.Println()
 }
