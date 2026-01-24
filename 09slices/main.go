@@ -11,5 +11,9 @@ func main() {
 
 	fmt.Println(fruits)
 
+	fruits = append(fruits, "pear", "banana", "orange")
+
+	fmt.Printf("Fruits: %s of data type: %T \n", fruits, fruits)
+
 	fmt.Println()
 }
