@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 	fmt.Println()
@@ -16,6 +19,12 @@ func main() {
 	fmt.Printf("Fruits: %s of data type: %T \n", fruits, fruits)
 
 	fmt.Printf("Fruits slice has a length: %d and capacity of: %d \n", len(fruits), cap(fruits))
+
+	fmt.Println(sort.StringsAreSorted(fruits))
+
+	sort.Strings(fruits)
+
+	fmt.Println(sort.StringsAreSorted(fruits))
 
 	fmt.Println()
 }
