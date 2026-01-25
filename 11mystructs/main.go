@@ -31,6 +31,7 @@ func main() {
 	fmt.Println()
 }
 
+// a struct (structure) for the user
 type User struct {
 	Name   string
 	Email  string
