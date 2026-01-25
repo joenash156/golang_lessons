@@ -23,10 +23,13 @@ func main() {
 
 	var user1 User
 	var name = user1.Name
+	var email = user1.Email
 
 	name = "Kwame"
+	email = "kwams@gmail.com"
 
 	fmt.Println(name)
+	fmt.Println(email)
 
 	fmt.Println()
 }
