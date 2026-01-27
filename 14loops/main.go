@@ -23,16 +23,16 @@ func main() {
 	// 	fmt.Printf("Index is %v and value is %v \n", i, day)
 	// }
 
-	rougueValue := 1
+	rogueValue := 1
 
-	for rougueValue < 10 {
+	for rogueValue < 10 {
 
-		if rougueValue == 2 {
+		if rogueValue == 2 {
 			goto josh
 		}
 
-		fmt.Println(rougueValue)
-		rougueValue++
+		fmt.Println(rogueValue)
+		rogueValue++
 	}
 
 	josh:
