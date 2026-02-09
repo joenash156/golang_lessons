@@ -29,7 +29,7 @@ func PerformGetRequest() {
 	defer response.Body.Close()
 
 	fmt.Println("Status code:", response.StatusCode)
-	// fmt.Println("Content length is:", response.ContentLength)
+	// dfmt.Println("Content length is:", response.ContentLength)
 
 	var responseString strings.Builder
 
