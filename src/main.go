@@ -25,7 +25,7 @@ func PerformGetRequest() {
 
 	checkNilError(err)
 
-	// close response.
+	// close response
 	defer response.Body.Close()
 
 	fmt.Println("Status code:", response.StatusCode)
