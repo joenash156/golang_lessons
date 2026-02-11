@@ -21,5 +21,5 @@ func main() {
 	createdDate := time.Date(2002, time.April, 22, 23, 30, 0, 0, time.UTC)
 	fmt.Println("Date: ", createdDate.Format("01-02-2006 15:04:05 Monday"))
 
-	fmt.Println() // print a new line
+	fmt.Println()
 }
